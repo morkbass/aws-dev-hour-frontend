@@ -1,15 +1,15 @@
 {
   "api": {
-    "invokeUrl": "https://123456789.execute-api.ap-southeast-2.amazonaws.com/prod"
+    "invokeUrl": "https://srmmjii2hf.execute-api.us-east-1.amazonaws.com/prod"
   },
   "cognito": {
-    "REGION": "ap-southeast-2",
-    "USER_POOL_ID": "ap-southeast-2_abcdefgh",
-    "APP_CLIENT_ID": "abcdefghijklmnopqrstuvwqyz",
-    "IDENTITY_POOL_ID": "ap-southeast-2:ab12345-a123-b123-c123-123456789"
+    "REGION": "us-east-1",
+    "USER_POOL_ID": "us-east-1_HYj4Bj1xo",
+    "APP_CLIENT_ID": "t979kdltfqid1s10rusio0vit",
+    "IDENTITY_POOL_ID": "us-east-1:b1056569-0a11-41e7-9675-ed23288ef1f6"
   },
   "s3": {
-    "bucket": "devhourseries1stack-cdkreknimagebucket12345-123456789",
-    "thumbBucket": "devhourseries1stack-cdkreknimagebucketresized12345-123456789"
+    "bucket": "image-bucket-scj",
+    "thumbBucket": "image-bucket-scj-resized"
   }
 }

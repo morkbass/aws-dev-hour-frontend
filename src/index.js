@@ -11,7 +11,7 @@ import * as serviceWorker from './serviceWorker';
 
 Amplify.configure({
   Auth: {
-    mandatorySignIn: true,
+    // mandatorySignIn: true,
     region: config.cognito.REGION,
     userPoolId: config.cognito.USER_POOL_ID,
     userPoolWebClientId: config.cognito.APP_CLIENT_ID,
